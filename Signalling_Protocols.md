@@ -33,7 +33,7 @@ A suite of protocols that enable the transport of legacy SS7 signaling over IP n
 Protocols used to control media gateways (which convert TDM voice traffic to IP packets and vice-versa) from a centralized media gateway controller.
     
 
-**Summary of Key Protocols by Network Generation**
+## Summary of Key Protocols by Network Generation
 
 | Network Generation | Primary Signaling Protocols |
 | -------- | ------- |
