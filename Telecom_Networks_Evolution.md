@@ -1,17 +1,18 @@
+# Telecommunication Network Evolution
 Telecommunication networks have evolved from analog, circuit-switched systems focused solely on voice calls to digital, packet-switched networks that provide high-speed mobile broadband, ultra-low latency, and support a vast ecosystem of connected devices.
 
 Here is a detailed explanation of the technology, underlying signaling, and security protocols across generations:
 
-1. Public Switched Telephone Network (PSTN) 
+**1. Public Switched Telephone Network (PSTN)** 
 The PSTN was the original backbone of global telecommunications, primarily an analog, circuit-switched network that has largely transitioned to an all-IP communication system today. 
+* Technology: Early systems used copper wires and manual switchboards, evolving to automatic electromechanical and then electronic switching. The core principle was **circuit switching**, where a dedicated physical circuit was established and maintained for the entire duration of a call. While the last mile connection to the customer was often analog (Plain Old Telephone Service or POTS), the network backbone became digital from the 1960s onward using Time Division Multiplexing (TDM).
 
-    Technology: Early systems used copper wires and manual switchboards, evolving to automatic electromechanical and then electronic switching. The core principle was circuit switching, where a dedicated physical circuit was established and maintained for the entire duration of a call. While the last mile connection to the customer was often analog (Plain Old Telephone Service or POTS), the network backbone became digital from the 1960s onward using Time Division Multiplexing (TDM).
-    Signaling Protocols:
+*   **Signaling Protocols**
         In-band signaling: Initially, signaling (like dialing tones and busy signals) occurred within the same voice channel, making it prone to fraud.
         Signaling System 7 (SS7): Adopted as an international standard in the late 1980s, SS7 uses out-of-band signaling, meaning control information travels on a separate, dedicated channel (typically 56 or 64 kbps links). This enabled faster call setup, caller ID, call forwarding, and SMS. The core components are Service Switching Points (SSPs), Signal Transfer Points (STPs, which act as routers), and Service Control Points (SCPs, which are databases).
     Security: SS7 was designed for a closed, trusted network environment and lacks robust, modern authentication and encryption. This inherent trust model makes it vulnerable to attacks like location tracking, call interception, and SMS hijacking if an attacker gains access to the network. 
 <br>
-2. Mobile Network Evolution (1G to 5G)
+*   **2. Mobile Network Evolution (1G to 5G)**
 Mobile networks built upon and eventually converged with the PSTN infrastructure, moving from analog voice to high-speed digital data services.
 
 | Generation | Core Technology | Key Features | Signaling Protocols | Security Protocols |
